@@ -1,0 +1,4 @@
+/* This re-adds the @ symbol for the new username system. */
+:is([class*=userTagWithNickname], [class*=nameTagSmall]) span:only-child:before {
+    content: '@';
+}
