@@ -10,10 +10,10 @@ Please note that some snippets require Vencord to be installed in order to funct
 
 
 ### To Do:
-[ ] Figure out a better system to organize snippets.
+- [ ] Figure out a better system to organize snippets.
 
-[ ] Add my other snippets.
+- [ ] Add my other snippets.
 
-[ ] Find the authors of my other snippets, and properly credit them.
+- [ ] Find the authors of my other snippets, and properly credit them.
 
-[ ] Make a better Readme.
+- [ ] Make a better Readme.
