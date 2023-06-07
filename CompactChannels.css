@@ -1,0 +1,16 @@
+/* This removes vertical padding from the channels, allowing more to be shown at once. */
+/* Snippet by nml#7636 */
+.container-1NXEtd {
+    max-height: 200%;
+    min-height: 110%;
+}
+.container-1NXEtd ~ .panels-3wFtMD {
+    position: absolute;
+    width: 240px;
+    bottom: 0;
+}
+.container-1NXEtd .mainContent-20q_Hp,
+.iconItem-1EjiK0 { padding: 2px 0 }
+.container-1NXEtd .wrapper-NhbLHG,
+.container-1NXEtd .content-1gYQeQ { padding: 0 }
+.containerDefault-3TQ5YN { padding-top: 8px }
