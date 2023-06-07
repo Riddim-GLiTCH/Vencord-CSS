@@ -1,0 +1,20 @@
+/* This removes the horizontal padding on Discord members. (this also includes DM's) */
+/* Snippet by nml#7636 */
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .layout-1LjVue { height: 24px }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg,
+.membersWrap-3NUR2t .avatar-6qzftW,
+.privateChannels-oVe7HL .avatar-1HDIsL { width: 16px; height: 24px }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .layout-1qmrhw,
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K { height: 20px !important }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg[width="40"] { width: 24px; height: 24px; }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg[width="32"] { width: 20px; height: 20px; }
+.subText-OGOWMj, .subText-3Sk0zy { display: none }
+.container-2o3qEW, .membersWrap-3NUR2t { overflow: hidden }
+.membersWrap-3NUR2t,
+.scroller-WSmht3 {
+    max-height: 200%;
+    min-height: 160%;
+}
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .avatarDecoration-2Wb1Au {
+    left: calc((.5 - var(--decoration-to-avatar-ratio))*100%);
+}
