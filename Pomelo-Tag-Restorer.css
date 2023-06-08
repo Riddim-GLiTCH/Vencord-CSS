@@ -1,4 +1,21 @@
-/* This re-adds the @ symbol for the new username system. */
-:is([class*=userTagWithNickname], [class*=nameTagSmall]) span:only-child:before {
-    content: '@';
+/* Both these snippets were made by berneseAlexxx#0001 */
+
+/* add @ to profile views */  
+.nameTag-35jqbZ::before {
+  content: "@";
+  color: var(--header-secondary);
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  margin-right: 1px;
+}
+/* add @ to profile pop up */
+.userTagWithNickname-13lfvd::before {
+  content: "@";
+  color: var(--header-primary);
+  font-family: var(--font-primary);
+  line-height: 18px;
+  font-size: 14px;
+  margin-right: 1px;
 }
